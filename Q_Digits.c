@@ -1,13 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    long long int x;
-    scanf("%lld",&x);
-    while(x!=0){
-        int digit=x%10;
-        printf("%d",digit);
-        x=x/10;
+    int T;
+    scanf("%d", &T);
+    while (T--) {
+        int N;
+        scanf("%d", &N);
+        if (N == 0) {
+            printf("0\n");
+            continue;
+        }
+        while (N != 0) {
+            int digit = N % 10;
+            printf("%d", digit);
+            N = N / 10;
+            if (N != 0) {
+                printf(" ");
+            }
+        }
+        printf("\n");
     }
-    
     return 0;
 }
