@@ -145,3 +145,57 @@
 
 //     return 0;
 // }
+// // LCM and GCD of two numbers
+// #include <stdio.h>
+
+// int main() {
+//     int a,b;
+//     scanf("%d %d",&a,&b);
+//     int x=a,y=b;
+//     while(b!=0){
+//         int rem=a%b;
+//         a=b;
+//         b=rem;
+//     }
+//     int gcd=a;
+//     int lcm=(x*y)/gcd;
+//     printf("GCD: %d\n",gcd);
+//     printf("LCM: %d",lcm);
+//     return 0;
+// }
+// // Count Even and Odd Digits in a number
+// #include <stdio.h>
+
+// int main() {
+//     int number,even, odd;
+//     scanf("%d",&number);
+//     while (number!=0)
+//     {
+//         int digit=number%10;
+//         if(digit%2==0){
+//             even++;
+//         }else{
+//             odd++;
+//         }
+//         number=number/10;
+//     }
+//     printf("Even: %d\n",even);
+//     printf("Odd: %d\n",odd);
+    
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main() {
+    
+//     char c;
+//     scanf("%c", &c);
+//     while (c!='\0')
+//     {
+//         printf("%c --> %d",c,c);
+//     }
+    
+    
+
+//     return 0;
+// }
