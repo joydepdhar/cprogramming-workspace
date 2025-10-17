@@ -81,7 +81,7 @@ int main() {
     }
     for (int i=n-1;i>=0;i--) {
         if (i%2==1) {
-            printf("%d ",num[i]);
+            printf("%lld ",num[i]);
         }
     }
     return 0;
