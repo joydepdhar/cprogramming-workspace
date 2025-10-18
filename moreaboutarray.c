@@ -11,14 +11,12 @@ int main() {
     int x,val;
     scanf("%d%d",&x,&val);
     for(int i=n;i>=x+1;i--){
-        if(i!=x){
             arr[i]=arr[i-1];
-        }else{
-            arr[x]=val;
-        }
+       
     }
-    for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+    arr[x]=val;
+    for(int i=0;i<=n;i++){
+        printf("%d ",arr[i]);
     }
     return 0;
 }
