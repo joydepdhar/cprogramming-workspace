@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int x,rev=0;
-    int original;
-    scanf("%d",&x);
-    original=x;
-    while(x!=0){
-        int digit=x%10;
-        rev=rev*10+digit;
-        x=x/10;
+    char a[1001];
+    scanf("%s",&a);
+    int flag=0;
+    int n=strlen(a);
+    for(int i=0;i<=n/2;i++){
+        if(a[i]!=a[n-1-i]){
+            flag=1;
+        }
     }
-    if(original==rev){
-        printf("%d\nYES",rev);
+    if(flag==0){
+        printf("YES");
     }else{
-        printf("%d\nNO",rev);
+        printf("NO");
     }
     return 0;
 }
