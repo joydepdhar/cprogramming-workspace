@@ -62,15 +62,16 @@
 //     return 0;
 // }
 
-// Reverse a String;
-#include <stdio.h>
+// // Reverse a String;
+// #include <stdio.h>
 
-int main() {
-    char a[1000];
-    gets(a);
-    int x=strlen(a);
-    for(int i=x;i>=0;i--){
-        printf("%c",a[i]);
-    }
-    return 0;
-}
+// int main() {
+//     char a[1000];
+//     gets(a);
+//     int x=strlen(a);
+//     for(int i=x;i>=0;i--){
+//         printf("%c",a[i]);
+//     }
+//     return 0;
+// }
+// Count Vowels and Consonants in a String
