@@ -9,15 +9,15 @@ int main() {
     }
     int index;
     scanf("%d",&index);
-    for(int i=0;i<n;i++){
-        if(index==arr[i]){
-            for(int j=0;j<n;j++){
-                superarr[j]=arr[i];
-            }
-        }
+    int pos = 0;
+    for (int i = index; i < n; i++) {
+        superarr[pos++] = arr[i];
+    }
+    for (int i = 0; i < index; i++) {
+        superarr[pos++] = arr[i];
     }
     for(int i=0;i<n;i++){
-        printf("%d",superarr[i]);
+        printf("%d ",superarr[i]);
     }
     return 0;
 }
