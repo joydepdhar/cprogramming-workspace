@@ -17,6 +17,5 @@ int main() {
     }
     int gpairs=ev*od;
     printf("%d\n",gpairs);
-
     return 0;
 }
