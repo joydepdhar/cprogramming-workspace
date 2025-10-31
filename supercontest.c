@@ -7,5 +7,8 @@ int main() {
     // int _a_=53;
     // int a3b2=7;
     // printf("%c",_a+_a_+a3b2); //ascii value print korbe
+    long long int a=1e10;
+    int b=100;
+    int c=a/b;
     return 0;
 }
