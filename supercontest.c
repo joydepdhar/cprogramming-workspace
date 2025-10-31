@@ -20,11 +20,17 @@ int main() {
     // printf("%d",ans);
     // double a=2.5,b=1.5;
     // printf("%lf",a % b);
-    int x=5;
-    x++;
-    --x;
-    printf("%d",x++);
-    printf("%d",x);
-    printf("%d",--x);
-
+    // int x=5;
+    // x++;
+    // --x;
+    // printf("%d",x++);
+    // printf("%d",x);
+    // printf("%d",--x);
+    int x=6;
+    double d=6.00000000001;
+    if(x==d){
+        printf("Kaj korbe ");
+    }else{
+        printf("Noooooooo!!!");
+    }
 }
