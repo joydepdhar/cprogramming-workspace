@@ -26,11 +26,14 @@ int main() {
     // printf("%d",x++);
     // printf("%d",x);
     // printf("%d",--x);
-    int x=6;
-    double d=6.00000000001;
-    if(x==d){
-        printf("Kaj korbe ");
-    }else{
-        printf("Noooooooo!!!");
-    }
+    // int x=6;
+    // double d=6.00000000001;
+    // if(x==d){
+    //     printf("Kaj korbe ");
+    // }else{
+    //     printf("Noooooooo!!!");
+    // }
+    //(condition)?(if true):(if false)
+    int x;
+    
 }
