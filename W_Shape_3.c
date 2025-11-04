@@ -17,19 +17,15 @@ int main() {
         space--;
         star += 2;
     }
-
-    // Bottom pyramid (same as top, middle line repeated)
-    space = n - 1;
-    star = 2 * n - 1;
-
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= space; j++)
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < i; j++) {
             printf(" ");
-        for (int j = 1; j <= star; j++)
+        }
+        for (int j = 0; j < 2 * (n - i) - 1; j++) {
             printf("*");
-        printf("\n");
-        space--;
-    }
+        }
 
+        printf("\n");
+    }
     return 0;
 }
