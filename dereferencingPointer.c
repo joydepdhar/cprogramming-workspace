@@ -15,6 +15,6 @@ int main() {
     //passbyreference
     int x=10;
     fun(&x);
-    printf("Main function er x er address: %p",&x);
+    printf("Main function er x er address: %d",x);
     return 0;
 }
