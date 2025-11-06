@@ -1,14 +1,15 @@
 #include <stdio.h>
 
-void print(long long int x) {
-    for (long long int i = 1; i <= x; i++) {
-        printf("%lld ", i);
+void printNumbers(int n) {
+    for (int i = 1; i <= n; i++) {
+        if (i > 1) printf(" "); 
+        printf("%d", i);
     }
 }
 
 int main() {
-    long long int x;
-    scanf("%lld", &x);
-    print(x);
+    int n;
+    scanf("%d", &n);
+    printNumbers(n);
     return 0;
 }
