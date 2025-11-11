@@ -17,5 +17,9 @@ int main() {
      for (int i = 0; i < n; i++) {
         secDiagonal += arr[i][n - 1 - i];
     }
+    // int sum =preDiagonal+secDiagonal;
+    int sumdiagonal=abs(preDiagonal - secDiagonal)
+;
+    printf("%d",sumdiagonal);
     return 0;
 }
