@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, k;
     scanf("%d %d", &n, &k);
@@ -17,7 +16,6 @@ int main() {
             }
         }
     }
-
     long long sum = 0;
     int count = 0;
     for (int i = 0; i < n && count < k; i++) {
@@ -26,7 +24,6 @@ int main() {
             count++;
         }
     }
-
     printf("%lld\n", sum);
     return 0;
 }
