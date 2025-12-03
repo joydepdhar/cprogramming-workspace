@@ -11,6 +11,7 @@ void odd_even(int arr[],int n){
     printf("%d %d",ev, od);
 }
 int main() {
+    printf("Super Even odd count:");
     int n;
     scanf("%d",&n);
     int arr[n];
