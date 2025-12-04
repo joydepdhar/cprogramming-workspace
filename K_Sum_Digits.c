@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    printf("Super King");
     int n;
     scanf("%d", &n);
     char digits[n + 1];
@@ -9,6 +10,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         sum += digits[i] - '0'; 
     }
-    printf("%lld", sum);
+    printf("%lld ", sum);
     return 0;
 }
