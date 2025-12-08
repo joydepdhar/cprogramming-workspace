@@ -2,6 +2,7 @@
 
 int main() {
     printf("Super King");
+    printf("Basic Of DRF");
     int n;
     scanf("%d", &n);
     char digits[n + 1];
